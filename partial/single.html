@@ -1,0 +1,9 @@
+<section class="row">
+	<h1>{{movies[movieSingle].name}}</h1>
+	<img ng-src="img/{{movies[movieSingle].img}}.jpg" class="large-5 columns">
+	<div class="content large-7 columns">
+		<span> Year Of Made: {{movies[movieSingle].year}}</span>
+		<p>{{movies[movieSingle].description}}</p>
+		<p><a ng-click="home()">Back to home</a></p>
+	</div>
+</section>
